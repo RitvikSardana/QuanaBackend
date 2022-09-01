@@ -1,6 +1,6 @@
 const api_city_get = async (req, res) => {
   try {
-    res.status(200).json({ city: "DelhiS" });
+    res.status(200).json({ city: "Bangalore" });
   } catch (err) {
     res.status(500).json({ error: err });
   }
